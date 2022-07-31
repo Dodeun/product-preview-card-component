@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+    .card {
+        width: 600px;
+        flex-direction: row;
+
+        .img, .wrapper {
+            width: 50%;
+        }
+
+        .img {
+            height: 453px;
+            background-image: url("../img/image-product-desktop.jpg");
+        }
+
+        .wrapper {
+            padding: 30px;
+
+            h2 {
+                margin-bottom: 1.5rem;
+            }
+
+            h1 {
+                margin-bottom: 2rem;
+            }
+
+            .prices {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

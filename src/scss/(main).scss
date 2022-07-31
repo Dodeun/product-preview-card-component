@@ -1,5 +1,4 @@
 @import 'variables';
-@import 'mediaquerries';
 
 * {
     margin: 0;
@@ -104,3 +103,5 @@ body {
 
     }
 }
+
+@import 'mediaquerries';
